@@ -31,13 +31,13 @@ async def on_ready():
   while True:
     await bot.change_presence(activity=discord.Streaming(
         name='C.S.E Batch -55', url="http://twitch.tv/streamer"))
-    await asyncio.sleep(5)  # Change activity every 5 seconds
+    await asyncio.sleep(30)  # Change activity every in seconds
     await bot.change_presence(activity=discord.Streaming(
         name='Bot-Dev: shellmonbhai', url="http://twitch.tv/streamer"))
-    await asyncio.sleep(5)  # Change activity every 5 seconds
+    await asyncio.sleep(30)  # Change activity every in seconds
     await bot.change_presence(activity=discord.Streaming(
         name='Bot-Dev: Ali', url="http://twitch.tv/streamer"))
-    await asyncio.sleep(5)  # Change activity every 5 seconds
+    await asyncio.sleep(30)  # Change activity every in seconds
 
 
   
